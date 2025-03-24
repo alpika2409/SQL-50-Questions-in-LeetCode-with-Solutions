@@ -1,21 +1,15 @@
 # Easy
 
-SQL Schema
-Table: Products
+### SQL Schema  
+#### Table: Products  
 
-SQL Schema
-Table: Products
+| Column Name | Type  |
+|------------|-------|
+| product_id | int   |
+| low_fats   | enum  |
+| recyclable | enum  |
 
-+-------------+---------+
-| Column Name | Type    |
-+-------------+---------+
-| product_id  | int     |
-| low_fats    | enum    |
-| recyclable  | enum    |
-+-------------+---------+
-product_id is the primary key (column with unique values) for this table.
-
-low_fats is an ENUM of type ('Y', 'N'), where 'Y' means the product is low fat, and 'N' means it is not.
-
-recyclable is an ENUM of type ('Y', 'N'), where 'Y' means the product is recyclable, and 'N' means it is not recyclable.
+- `product_id` is the **primary key** (unique identifier).  
+- `low_fats` is an **ENUM** (`'Y'`, `'N'`), where `'Y'` means the product is low fat.  
+- `recyclable` is an **ENUM** (`'Y'`, `'N'`), where `'Y'` means the product is recyclable.  
 
