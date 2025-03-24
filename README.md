@@ -1,2 +1,15 @@
-# SQL-50-Questions-in-LeetCode-with-Solutions
-This repository contains 50 SQL questions from LeetCode with solutions. Whether you're a beginner looking to strengthen your SQL skills or an experienced developer exploring advanced concepts, this collection provides valuable insights and practical problem-solving techniques.  Start practicing and enhance your SQL proficiency today! 🚀
+# SQL-Easy
+
+SQL Schema
+Table: Products
+
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| product_id  | int     |
+| low_fats    | enum    |
+| recyclable  | enum    |
++-------------+---------+
+product_id is the primary key (column with unique values) for this table.
+low_fats is an ENUM (category) of type ('Y', 'N') where 'Y' means this product is low fat and 'N' means it is not.
+recyclable is an ENUM (category) of types ('Y', 'N') where 'Y' means this product is recyclable and 'N' means it is not.
