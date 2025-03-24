@@ -21,7 +21,7 @@ Example 1:
 
 ## Input
 
-### **Products Table **
+### Products Table 
 
 | product_id | low_fats | recyclable |
 |------------|----------|------------|
